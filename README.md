@@ -33,6 +33,11 @@ use with file list
 ncmc 1.ncm ../2.ncm /path/to/3.ncm
 ```
 
+use with batch
+```
+for %i in (*.ncm) do ncmc.exe "%~fi"
+```
+
 ---
 
 Thanks: [anonymous5l / ncmdump](https://github.com/anonymous5l/ncmdump)
